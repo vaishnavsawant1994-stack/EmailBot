@@ -1,5 +1,17 @@
 # Email Bot Dashboard & Campaign Engine
 
+<!-- repository-profile:start -->
+## Repository profile
+
+**Purpose:** IntelliMailPilot / EmailBot is an email-operations platform for lead lists, sender identities, drafts, multi-step campaigns, scheduled delivery, replies, warm-up workflows, and reporting.
+
+**Core contents:** The maintained application is under `dashboard-next/` and uses Next.js, MongoDB/Mongoose, JWT authentication, Microsoft Graph and SMTP delivery, campaign APIs, and persistent worker/deployment assets. `campaign_engine/` and `legacy/` contain earlier implementations; `project-management/` contains supporting planning material.
+
+**Current status:** Substantial application and campaign-orchestration code is present. Production use still depends on correctly configured provider credentials, token lifecycle management, a persistent campaign worker, and regression testing against the current code.
+
+**Recommended next milestone:** Verify authentication, provider credentials, campaign throttling, reply threading, worker recovery, and a complete dry-run-to-live-send release gate before using real outreach data.
+<!-- repository-profile:end -->
+
 This workspace contains a Python backend for sending batch email campaigns and a Node/Express dashboard frontend.
 
 ## Key Features
