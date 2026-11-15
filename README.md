@@ -92,3 +92,7 @@ This workspace contains a Python backend for sending batch email campaigns and a
 ---
 
 Now the dashboard will fetch real data from the sheet and allow sending emails accordingly.
+
+## Complete project guide
+
+For a detailed, repository-specific explanation of product purpose, intended users, workflows, technical architecture, implementation status, validation, data/security boundaries and future milestones, read the [**Project Handbook**](docs/PROJECT_HANDBOOK.md). The handbook is a documentation assessment, not a certification of live features.
